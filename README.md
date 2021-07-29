@@ -8,4 +8,5 @@ Install the full version of [Raspbian](https://www.raspberrypi.org/software/oper
 Open the terminal and run the coomand lines : 
 
  sudo apt-get update
+ 
  sudo apt-get upgrade
