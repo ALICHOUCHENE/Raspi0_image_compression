@@ -1,10 +1,10 @@
 # Raspi0_image_compression
 A raspi zero triggered by an arduino take two pictures from a Picam and compress it and send it to a payboard using UART port.
 
-## - OS SETUP 
+## * OS SETUP 
 Install the full version of [Raspbian](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit) operating system 
 
-## - UPDATE THE SYSTEM
+## * UPDATE THE SYSTEM
 Open the terminal and run the coomand lines : 
 
  sudo apt-get update
@@ -14,7 +14,7 @@ Open the terminal and run the coomand lines :
  
  
  
- ## - Picam Installation 
+ ## * Picam Installation 
 
 This will ensure that picamera is easy to keep up to date, and easy to remove should you wish to do so. It will also make picamera available for all users on the system. To install picamera using apt simply:
 
