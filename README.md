@@ -2,16 +2,16 @@
 A raspi zero triggered by an arduino take two pictures from a Picam and compress it and send it to a payboard using UART port.
 
 ##  OS SETUP 
-Install the full version of [Raspbian](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit) operating system 
+Install the full version of [Raspbian](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit)  Buster Lite operating system 
 
 ##  UPDATE THE SYSTEM
 Open the terminal and run the coomand lines : 
 
- - sudo apt-get update
+ - $ sudo apt-get update
  
- - sudo apt-get upgrade
+ - $ sudo apt-get upgrade
  
- 
+ - $ sudo apt install python-pip
  
  
  ##  Picam Installation 
@@ -27,3 +27,8 @@ To upgrade your installation when new releases are made you can simply use aptâ€
 - $ sudo apt-get update
 
 - $ sudo apt-get upgrade
+
+## Install Pyserial
+
+- $ python -m pip install pyserial
+
