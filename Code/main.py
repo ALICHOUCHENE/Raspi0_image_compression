@@ -4,7 +4,7 @@ import compress
 
 arduino=UART.connect()
 pyboard=UART.connect()
-list arduino_data=[]
+arduino_data=[]
 while True :
 	if arduino.available():
 		data=UART.raed(arduino)
